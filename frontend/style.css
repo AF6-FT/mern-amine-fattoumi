@@ -1,0 +1,13 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; background: #f4f6f8; color: #1d2733; }
+.container { max-width: 800px; margin: 0 auto; padding: 1rem; }
+form { display: grid; gap: .5rem; background: #fff; padding: 1rem; border-radius: 10px; box-shadow: 0 1px 4px #0001; }
+input, textarea, button { font: inherit; padding: .6rem; border: 1px solid #c4ccd4; border-radius: 6px; }
+button { background: #0b6bcb; color: #fff; border: 0; cursor: pointer; }
+button:disabled { opacity: .6; cursor: wait; }
+.grid { list-style: none; padding: 0; display: grid; gap: .75rem; grid-template-columns: 1fr; }
+.grid li { background: #fff; padding: .8rem; border-radius: 8px; box-shadow: 0 1px 3px #0001; }
+#status { min-height: 1.4em; font-weight: 600; }
+#status.error { color: #b3261e; }
+#status.ok { color: #1b7f3b; }
+@media (min-width: 600px) { .grid { grid-template-columns: 1fr 1fr; } }
