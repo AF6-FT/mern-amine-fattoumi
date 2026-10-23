@@ -34,6 +34,6 @@ Frontend : `npx serve frontend -l 5500`
 
 ## URLs de déploiement
 - GitHub : https://github.com/AF6-FT/mern-amine-fattoumi
-- Frontend Vercel : _à compléter_
-- Backend Vercel : _à compléter_
+- Frontend Vercel : https://mern-amine-fattoumi-frontend.vercel.app
+- Backend Vercel : https://mern-amine-fattoumi-api.vercel.app
 - Backend Cloudflare : _à compléter_
